@@ -1,56 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
-    <meta charset= "utf-8"> 
-    <meta name="viewport" content="width=device-width">
-    <script src="main.js"></script>
 </head>
-<html>
 <body>
-<header><h1> boter kaas en eiren</h1> </header>
-
-<div class="player1"
-    <p> Score Player X: </p>
-
-</div>
-<div class="player2"
-<p> Score player O: </p>
-</div>
-
-
-<div class="container-out">
-    <div class="container-in">
-    <div class="table">
-        <p>Player <span id="player">X</span> your turn</p>
-        <table align="center">
-        <tr>
-            <td><div class="box"></div></td>
-            <td><div class="box"></div></td>
-            <td><div class="box"></div></td>
-        </tr>
-        <tr>
-            <td><div class="box"></div></td>
-            <td><div class="box"></div></td>
-            <td><div class="box"></div></td>
-        </tr>
-        <tr>
-            <td><div class="box"></div></td>
-            <td><div class="box"></div></td>
-            <td><div class="box"></div></td>
-        </tr>
-        </table>
-        
-        <button id="reset">Reset</button>
-    </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
+    <section>
+        <h1 class="game--title">boter kaas en eieren</h1>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <h2 class="game--status"></h2>
+        <button class="game--restart">Restart Game</button>
+    </section>
+<script src="script.js"></script>
 </body>
 </html>
